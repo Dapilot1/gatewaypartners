@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #636363;
+}
+body {
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+}
+.add {
+    color: #636363;
+    float: left;
+}
+
+.tell {
+    float: right;
+    color: #636363;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: rgba(7, 7, 7, 0.212);
+    overflow: hidden;
+
+}
+
+span.b {
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    min-height: 70vh;
+    width: 100%;
+}
+
+img {
+    float: left;
+
+}
+
+.links {
+    float: right;
+
+}
+
+div a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+
+}
+
+.links a.active {
+    border: 2px solid #eb8f34;
+}
+.og {
+    margin: 0;
+    padding-left: 110px;
+    padding-right: 110px;
+    background: rgba(7, 7, 7, 0.212);
+    overflow: auto;
+    margin-top: 60px;
+}
+.text-box{
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.text-box p{
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+}
+.bdy{
+    background-color: white;
+    display: flex;
+    padding: 100px 90px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.bdytxt p{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.bdytxt{
+    flex: 75%;
+}
+.line {
+    width: 100px;
+    border: 1px solid #eb8f34;
+}
+.rmbtn {
+    border: 2px solid #bbb4b4;
+    color: #636363;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.rmbtn:hover {
+    border: 2px solid #eba259;
+}
+.cntt {
+    background-image: url(images/bgg.jpg);
+    background-attachment: fixed;
+    padding: 80px 100px;
+}
+
+.mee {
+    display: flex;
+    background-color: white;
+    padding: 40px 60px;
+}
+
+.fill,
+.cont {
+    flex: 50%;
+}
+
+.fill {
+    text-align: right;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #cfcbcb;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 2px solid #cfcbcb;
+    border-radius: 5px;
+}
+
+.sm {
+    background-color: #eb8f34;
+    color: white;
+    border-radius: 5px;
+}
+
+.sm:hover {
+    background-color: #eba259;
+}
+
+#social {
+    border: 1px solid #bbb4b4;
+    padding: 6px 6px;
+    border-radius: 2px;
+}
+
+#social:hover {
+    color: #eba259;
+}
+
+.footer {
+    min-height: 10vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.footer a{
+    color: #636363;
+}
